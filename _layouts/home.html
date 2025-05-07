@@ -3,6 +3,15 @@ layout: default
 title: Home
 ---
 
+<!-- Custom welcome section -->
+<section class="page-header">
+  <h1 class="project-name">Bridges to Peace</h1>
+  <h2 class="project-tagline">
+    Empowering resilient communities through local innovation in rural at risk communities.
+  </h2>
+</section>
+
+<!-- Blog posts loop -->
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}
